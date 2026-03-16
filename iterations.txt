@@ -1,0 +1,4806 @@
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0
+Temperature: 90
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.01
+Temperature: 86.58605971504998
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.02
+Temperature: 83.33861926251717
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.03
+Temperature: 80.24955834975404
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.04
+Temperature: 77.31115271545872
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.05
+Temperature: 74.51605481499834
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.06
+Temperature: 71.85727544772024
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.07
+Temperature: 69.32816628030994
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.08
+Temperature: 66.92240322249475
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.09
+Temperature: 64.63397061352413
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.1
+Temperature: 62.45714617988434
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.11
+Temperature: 60.38648672663407
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.12
+Temperature: 58.416814526581845
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.13
+Temperature: 56.543204373271124
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.14
+Temperature: 54.760971265398666
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.15
+Temperature: 53.06565869187103
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.16
+Temperature: 51.45302748820551
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.17
+Temperature: 49.91904523641087
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.18
+Temperature: 48.45987618184194
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.19
+Temperature: 47.071871641815086
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.2
+Temperature: 45.75156088200096
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.21
+Temperature: 44.49564243778087
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.22
+Temperature: 43.30097585886557
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.23
+Temperature: 42.16457385653372
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.24
+Temperature: 41.08359483385415
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.25
+Temperature: 40.055335780213305
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.26
+Temperature: 39.07722551238088
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.27
+Temperature: 38.1468182452124
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.28
+Temperature: 37.26178747591245
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.29
+Temperature: 36.41992016656583
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.3
+Temperature: 35.61911121039009
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.31
+Temperature: 34.857358167872015
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.32
+Temperature: 34.13275625962588
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.33
+Temperature: 33.44349360345279
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.34
+Temperature: 32.78784668369142
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.35000000000000003
+Temperature: 32.16417604153116
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.36
+Temperature: 31.570922175511058
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.37
+Temperature: 31.00660164195393
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.38
+Temperature: 30.469803345584452
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.39
+Temperature: 29.959185011055947
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.4
+Temperature: 29.47346982656289
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.41000000000000003
+Temperature: 29.011443251146293
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.42
+Temperature: 28.571949977708734
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.43
+Temperature: 28.153891044144785
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.44
+Temperature: 27.75622108536337
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.45
+Temperature: 27.377945719330505
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.46
+Temperature: 27.01811906059626
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.47000000000000003
+Temperature: 26.675841355088473
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.48
+Temperature: 26.350256730258877
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.49
+Temperature: 26.040551054955934
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.5
+Temperature: 25.745949903672916
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.51
+Temperature: 25.46571662008072
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.52
+Temperature: 25.19915047500337
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.53
+Temperature: 24.945584914230068
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.54
+Temperature: 24.704385891782483
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.55
+Temperature: 24.47495028446953
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.56
+Temperature: 24.256704383765257
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.5700000000000001
+Temperature: 24.04910246123869
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.58
+Temperature: 23.851625403948507
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.59
+Temperature: 23.66377941639027
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.6
+Temperature: 23.485094785750476
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.61
+Temperature: 23.315124707379866
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.62
+Temperature: 23.153444167549047
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.63
+Temperature: 22.999648880692813
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.64
+Temperature: 22.853354278485636
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.65
+Temperature: 22.71419454822054
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.66
+Temperature: 22.5818217180868
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.67
+Temperature: 22.45590478705915
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.68
+Temperature: 22.336128897222824
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.6900000000000001
+Temperature: 22.222194546464756
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.7000000000000001
+Temperature: 22.113816839562293
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.71
+Temperature: 22.01072477579676
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.72
+Temperature: 21.91266057131048
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.73
+Temperature: 21.819379014512876
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.74
+Temperature: 21.73064685292376
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.75
+Temperature: 21.646242209920636
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.76
+Temperature: 21.565954029931593
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.77
+Temperature: 21.489581550686403
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.78
+Temperature: 21.416933801206305
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.79
+Temperature: 21.347829124277084
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.8
+Temperature: 21.282094722211394
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.81
+Temperature: 21.219566224764545
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.8200000000000001
+Temperature: 21.160087278123285
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.8300000000000001
+Temperature: 21.103509153939815
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.84
+Temperature: 21.04969037743344
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.85
+Temperature: 20.998496373629948
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.86
+Temperature: 20.949799130854064
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.87
+Temperature: 20.90347688063359
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.88
+Temperature: 20.85941379321479
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.89
+Temperature: 20.817499687927683
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.9
+Temperature: 20.777629757676962
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.91
+Temperature: 20.739704306869687
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.92
+Temperature: 20.70362850212435
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.93
+Temperature: 20.669312135138046
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.9400000000000001
+Temperature: 20.636669397118705
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.9500000000000001
+Temperature: 20.605618664218444
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.96
+Temperature: 20.5760822934314
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.97
+Temperature: 20.547986428445803
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.98
+Temperature: 20.521260814964705
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 0.99
+Temperature: 20.49583862503365
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1
+Temperature: 20.471656289935982
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.01
+Temperature: 20.448653341237947
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.02
+Temperature: 20.426772259586095
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.03
+Temperature: 20.40595833087895
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.04
+Temperature: 20.386159509453254
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.05
+Temperature: 20.367326287942696
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.06
+Temperature: 20.349411573483714
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.07
+Temperature: 20.332370569958805
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.08
+Temperature: 20.316160665982885
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.09
+Temperature: 20.300741328352665
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.1
+Temperature: 20.286074000692484
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.11
+Temperature: 20.27212200704333
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.12
+Temperature: 20.258850460153806
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.1300000000000001
+Temperature: 20.246226174243848
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.1400000000000001
+Temperature: 20.23421758202299
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.1500000000000001
+Temperature: 20.222794655755678
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.16
+Temperature: 20.21192883217631
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.17
+Temperature: 20.201592941066178
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.18
+Temperature: 20.191761137313787
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.19
+Temperature: 20.182408836288595
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.2
+Temperature: 20.173512652366647
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.21
+Temperature: 20.165050340454318
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.22
+Temperature: 20.157000740364005
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.23
+Temperature: 20.14934372390264
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.24
+Temperature: 20.1420601445407
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.25
+Temperature: 20.13513178953594
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.26
+Temperature: 20.128541334392022
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.27
+Temperature: 20.122272299538277
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.28
+Temperature: 20.116309009122176
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.29
+Temperature: 20.110636551811535
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.3
+Temperature: 20.10524074350843
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.31
+Temperature: 20.100108091881552
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.32
+Temperature: 20.095225762628353
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.33
+Temperature: 20.09058154738261
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.34
+Temperature: 20.086163833187143
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.35
+Temperature: 20.08196157345538
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.36
+Temperature: 20.077964260349138
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.37
+Temperature: 20.074161898503533
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.3800000000000001
+Temperature: 20.070544980033397
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.3900000000000001
+Temperature: 20.067104460758582
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.4000000000000001
+Temperature: 20.063831737588817
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.41
+Temperature: 20.06071862701149
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.42
+Temperature: 20.057757344628612
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.43
+Temperature: 20.054940485691766
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.44
+Temperature: 20.052261006586367
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.45
+Temperature: 20.049712207218978
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.46
+Temperature: 20.047287714263568
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.47
+Temperature: 20.04498146522489
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.48
+Temperature: 20.04278769327907
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.49
+Temperature: 20.040700912853563
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.5
+Temperature: 20.038715905910347
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.51
+Temperature: 20.036827708898123
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.52
+Temperature: 20.035031600340844
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.53
+Temperature: 20.03332308903156
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.54
+Temperature: 20.031697902802076
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.55
+Temperature: 20.030151977840298
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.56
+Temperature: 20.028681448528584
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.57
+Temperature: 20.02728263777769
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.58
+Temperature: 20.025952047832135
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.59
+Temperature: 20.02468635152398
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.6
+Temperature: 20.023482383953176
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.61
+Temperature: 20.022337134573686
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.62
+Temperature: 20.021247739665522
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.6300000000000001
+Temperature: 20.020211475173973
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.6400000000000001
+Temperature: 20.01922574989805
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.6500000000000001
+Temperature: 20.018288099011116
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.6600000000000001
+Temperature: 20.017396177897556
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.67
+Temperature: 20.016547756290006
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.68
+Temperature: 20.01574071269252
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.69
+Temperature: 20.014973029075737
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.7
+Temperature: 20.014242785830746
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.71
+Temperature: 20.013548156969065
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.72
+Temperature: 20.012887405556732
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.73
+Temperature: 20.012258879371036
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.74
+Temperature: 20.011661006769135
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.75
+Temperature: 20.011092292758104
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.76
+Temperature: 20.010551315256684
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.77
+Temperature: 20.01003672153934
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.78
+Temperature: 20.00954722485374
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.79
+Temperature: 20.009081601203203
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.8
+Temperature: 20.00863868628607
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.81
+Temperature: 20.008217372584337
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.82
+Temperature: 20.007816606594307
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.83
+Temperature: 20.007435386192252
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.84
+Temperature: 20.007072758128597
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.85
+Temperature: 20.006727815644297
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.86
+Temperature: 20.006399696203474
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.87
+Temperature: 20.006087579336608
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.8800000000000001
+Temperature: 20.005790684588963
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.8900000000000001
+Temperature: 20.005508269569027
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.9000000000000001
+Temperature: 20.005239628092138
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.9100000000000001
+Temperature: 20.004984088414684
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.92
+Temperature: 20.00474101155436
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.93
+Temperature: 20.004509789692406
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.94
+Temperature: 20.004289844653727
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.95
+Temperature: 20.00408062646116
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.96
+Temperature: 20.003881611960253
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.97
+Temperature: 20.003692303511087
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.98
+Temperature: 20.003512227743933
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 1.99
+Temperature: 20.003340934375576
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2
+Temperature: 20.003177995083373
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.0100000000000002
+Temperature: 20.003023002434222
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.02
+Temperature: 20.002875568865772
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.0300000000000002
+Temperature: 20.0027353257173
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.04
+Temperature: 20.00260192230789
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.05
+Temperature: 20.00247502505953
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.06
+Temperature: 20.002354316663002
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.07
+Temperature: 20.00223949528444
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.08
+Temperature: 20.00213027381059
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.09
+Temperature: 20.002026379130875
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.1
+Temperature: 20.001927551454482
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.11
+Temperature: 20.001833543660744
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.12
+Temperature: 20.001744120681206
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.13
+Temperature: 20.001659058911844
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.14
+Temperature: 20.001578145653927
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.15
+Temperature: 20.00150117858216
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.16
+Temperature: 20.001427965238783
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.17
+Temperature: 20.001358322552292
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.18
+Temperature: 20.001292076379706
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.19
+Temperature: 20.001229061071076
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.2
+Temperature: 20.001169119055316
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.21
+Temperature: 20.00111210044616
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.22
+Temperature: 20.00105786266739
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.23
+Temperature: 20.0010062700963
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.24
+Temperature: 20.0009571937246
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.25
+Temperature: 20.000910510835784
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.2600000000000002
+Temperature: 20.000866104698325
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.27
+Temperature: 20.000823864273745
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.2800000000000002
+Temperature: 20.00078368393898
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.29
+Temperature: 20.000745463222266
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.3000000000000003
+Temperature: 20.000709106551906
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.31
+Temperature: 20.000674523017278
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.32
+Temperature: 20.000641626141537
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.33
+Temperature: 20.00061033366536
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.34
+Temperature: 20.000580567341252
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.35
+Temperature: 20.000552252737904
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.36
+Temperature: 20.000525319054056
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.37
+Temperature: 20.000499698941468
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.38
+Temperature: 20.000475328336517
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.39
+Temperature: 20.000452146299992
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.4
+Temperature: 20.000430094864733
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.41
+Temperature: 20.000409118890662
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.42
+Temperature: 20.000389165926915
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.43
+Temperature: 20.000370186080694
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.44
+Temperature: 20.000352131892498
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.45
+Temperature: 20.00033495821745
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.46
+Temperature: 20.000318622112417
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.47
+Temperature: 20.000303082728628
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.48
+Temperature: 20.000288301209526
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.49
+Temperature: 20.000274240593622
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.5
+Temperature: 20.000260865722044
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.5100000000000002
+Temperature: 20.000248143150653
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.52
+Temperature: 20.00023604106639
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.5300000000000002
+Temperature: 20.000224529207742
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.54
+Temperature: 20.00021357878906
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.5500000000000003
+Temperature: 20.000203162428605
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.56
+Temperature: 20.000193254080042
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.57
+Temperature: 20.00018382896734
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.58
+Temperature: 20.000174863522812
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.59
+Temperature: 20.00016633532817
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.6
+Temperature: 20.000158223058488
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.61
+Temperature: 20.00015050642887
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.62
+Temperature: 20.000143166143715
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.63
+Temperature: 20.000136183848497
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.64
+Temperature: 20.00012954208383
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.65
+Temperature: 20.00012322424185
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.66
+Temperature: 20.00011721452466
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.67
+Temperature: 20.000111497904836
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.68
+Temperature: 20.00010606008785
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.69
+Temperature: 20.00010088747633
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.7
+Temperature: 20.000095967136048
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.71
+Temperature: 20.000091286763592
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.72
+Temperature: 20.000086834655598
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.73
+Temperature: 20.00008259967947
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.74
+Temperature: 20.000078571245567
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.75
+Temperature: 20.000074739280702
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.7600000000000002
+Temperature: 20.00007109420297
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.77
+Temperature: 20.000067626897778
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.7800000000000002
+Temperature: 20.000064328695053
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.79
+Temperature: 20.000061191347573
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.8000000000000003
+Temperature: 20.000058207010337
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.81
+Temperature: 20.000055368220945
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.82
+Temperature: 20.000052667880944
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.83
+Temperature: 20.00005009923808
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.84
+Temperature: 20.00004765586941
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.85
+Temperature: 20.00004533166523
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.86
+Temperature: 20.000043120813828
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.87
+Temperature: 20.000041017786923
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.88
+Temperature: 20.00003901732585
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.89
+Temperature: 20.000037114428412
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.9
+Temperature: 20.00003530433638
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.91
+Temperature: 20.000033582523578
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.92
+Temperature: 20.000031944684576
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.93
+Temperature: 20.000030386723925
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.94
+Temperature: 20.00002890474591
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.95
+Temperature: 20.00002749504482
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.96
+Temperature: 20.00002615409566
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.97
+Temperature: 20.00002487854536
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.98
+Temperature: 20.000023665204388
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 2.99
+Temperature: 20.00002251103875
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3
+Temperature: 20.000021413162436
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.0100000000000002
+Temperature: 20.00002036883018
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.02
+Temperature: 20.00001937543061
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.0300000000000002
+Temperature: 20.00001843047971
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.04
+Temperature: 20.000017531614606
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.0500000000000003
+Temperature: 20.000016676587673
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.06
+Temperature: 20.000015863260895
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.0700000000000003
+Temperature: 20.00001508960053
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.08
+Temperature: 20.00001435367203
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.09
+Temperature: 20.000013653635182
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.1
+Temperature: 20.000012987739538
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.11
+Temperature: 20.000012354320006
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.12
+Temperature: 20.00001175179271
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.13
+Temperature: 20.000011178651015
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.14
+Temperature: 20.000010633461773
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.15
+Temperature: 20.000010114861723
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.16
+Temperature: 20.000009621554096
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.17
+Temperature: 20.000009152305363
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.18
+Temperature: 20.000008705942165
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.19
+Temperature: 20.000008281348357
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.2
+Temperature: 20.00000787746223
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.21
+Temperature: 20.000007493273863
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.22
+Temperature: 20.000007127822585
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.23
+Temperature: 20.000006780194575
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.24
+Temperature: 20.000006449520583
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.25
+Temperature: 20.000006134973752
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.2600000000000002
+Temperature: 20.000005835767553
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.27
+Temperature: 20.000005551153812
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.2800000000000002
+Temperature: 20.000005280420844
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.29
+Temperature: 20.00000502289168
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.3000000000000003
+Temperature: 20.000004777922364
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.31
+Temperature: 20.00000454490034
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.3200000000000003
+Temperature: 20.000004323242933
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.33
+Temperature: 20.00000411239589
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.34
+Temperature: 20.000003911831975
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.35
+Temperature: 20.000003721049676
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.36
+Temperature: 20.000003539571942
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.37
+Temperature: 20.000003366944984
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.38
+Temperature: 20.00000320273714
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.39
+Temperature: 20.000003046537806
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.4
+Temperature: 20.000002897956403
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.41
+Temperature: 20.000002756621402
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.42
+Temperature: 20.00000262217939
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.43
+Temperature: 20.00000249429419
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.44
+Temperature: 20.00000237264603
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.45
+Temperature: 20.000002256930717
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.46
+Temperature: 20.000002146858908
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.47
+Temperature: 20.000002042155362
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.48
+Temperature: 20.00000194255827
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.49
+Temperature: 20.000001847818584
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.5
+Temperature: 20.00000175769941
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.5100000000000002
+Temperature: 20.000001671975397
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.52
+Temperature: 20.000001590432195
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.5300000000000002
+Temperature: 20.0000015128659
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.54
+Temperature: 20.00000143908256
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.5500000000000003
+Temperature: 20.000001368897678
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.56
+Temperature: 20.00000130213575
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.5700000000000003
+Temperature: 20.00000123862984
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.58
+Temperature: 20.000001178221147
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.59
+Temperature: 20.000001120758625
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.6
+Temperature: 20.000001066098584
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.61
+Temperature: 20.000001014104342
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.62
+Temperature: 20.00000096464589
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.63
+Temperature: 20.000000917599554
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.64
+Temperature: 20.000000872847696
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.65
+Temperature: 20.00000083027841
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.66
+Temperature: 20.000000789785254
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.67
+Temperature: 20.000000751266974
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.68
+Temperature: 20.00000071462725
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.69
+Temperature: 20.00000067977447
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.7
+Temperature: 20.000000646621476
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.71
+Temperature: 20.000000615085376
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.72
+Temperature: 20.000000585087307
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.73
+Temperature: 20.000000556552262
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.74
+Temperature: 20.000000529408887
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.75
+Temperature: 20.000000503589312
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.7600000000000002
+Temperature: 20.000000479028973
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.77
+Temperature: 20.000000455666452
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.7800000000000002
+Temperature: 20.000000433443336
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.79
+Temperature: 20.000000412304058
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.8000000000000003
+Temperature: 20.00000039219575
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.81
+Temperature: 20.00000037306814
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.8200000000000003
+Temperature: 20.00000035487339
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.83
+Temperature: 20.00000033756601
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.84
+Temperature: 20.00000032110272
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.85
+Temperature: 20.00000030544236
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.86
+Temperature: 20.00000029054576
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.87
+Temperature: 20.000000276375673
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.88
+Temperature: 20.000000262896673
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.89
+Temperature: 20.00000025007505
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.9
+Temperature: 20.000000237878748
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.91
+Temperature: 20.000000226277265
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.92
+Temperature: 20.00000021524159
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.93
+Temperature: 20.000000204744136
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.94
+Temperature: 20.000000194758645
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.95
+Temperature: 20.000000185260156
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.96
+Temperature: 20.000000176224912
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.97
+Temperature: 20.00000016763032
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.98
+Temperature: 20.000000159454892
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 3.99
+Temperature: 20.000000151678186
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4
+Temperature: 20.000000144280754
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.01
+Temperature: 20.000000137244097
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.0200000000000005
+Temperature: 20.000000130550625
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.03
+Temperature: 20.000000124183597
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.04
+Temperature: 20.00000011812709
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.05
+Temperature: 20.000000112365964
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.0600000000000005
+Temperature: 20.00000010688581
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.07
+Temperature: 20.000000101672928
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.08
+Temperature: 20.00000009671428
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.09
+Temperature: 20.00000009199747
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.1
+Temperature: 20.0000000875107
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.11
+Temperature: 20.000000083242753
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.12
+Temperature: 20.000000079182957
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.13
+Temperature: 20.000000075321157
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.14
+Temperature: 20.0000000716477
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.15
+Temperature: 20.0000000681534
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.16
+Temperature: 20.00000006482952
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.17
+Temperature: 20.00000006166775
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.18
+Temperature: 20.000000058660177
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.19
+Temperature: 20.000000055799287
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.2
+Temperature: 20.000000053077923
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.21
+Temperature: 20.000000050489284
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.22
+Temperature: 20.00000004802689
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.23
+Temperature: 20.00000004568459
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.24
+Temperature: 20.000000043456527
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.25
+Temperature: 20.000000041337127
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.26
+Temperature: 20.000000039321094
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.2700000000000005
+Temperature: 20.00000003740338
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.28
+Temperature: 20.000000035579195
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.29
+Temperature: 20.00000003384398
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.3
+Temperature: 20.000000032193388
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.3100000000000005
+Temperature: 20.000000030623298
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.32
+Temperature: 20.000000029129783
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.33
+Temperature: 20.000000027709106
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.34
+Temperature: 20.000000026357718
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.3500000000000005
+Temperature: 20.000000025072236
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.36
+Temperature: 20.00000002384945
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.37
+Temperature: 20.000000022686297
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.38
+Temperature: 20.000000021579872
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.39
+Temperature: 20.00000002052741
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.4
+Temperature: 20.000000019526276
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.41
+Temperature: 20.000000018573967
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.42
+Temperature: 20.000000017668107
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.43
+Temperature: 20.00000001680642
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.44
+Temperature: 20.000000015986764
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.45
+Temperature: 20.00000001520708
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.46
+Temperature: 20.00000001446542
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.47
+Temperature: 20.000000013759934
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.48
+Temperature: 20.000000013088854
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.49
+Temperature: 20.000000012450503
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.5
+Temperature: 20.000000011843284
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.51
+Temperature: 20.00000001126568
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.5200000000000005
+Temperature: 20.00000001071625
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.53
+Temperature: 20.00000001019361
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.54
+Temperature: 20.00000000969646
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.55
+Temperature: 20.00000000922356
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.5600000000000005
+Temperature: 20.00000000877372
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.57
+Temperature: 20.000000008345822
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.58
+Temperature: 20.00000000793879
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.59
+Temperature: 20.000000007551613
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.6000000000000005
+Temperature: 20.000000007183317
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.61
+Temperature: 20.00000000683298
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.62
+Temperature: 20.000000006499732
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.63
+Temperature: 20.000000006182738
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.64
+Temperature: 20.0000000058812
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.65
+Temperature: 20.000000005594373
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.66
+Temperature: 20.00000000532153
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.67
+Temperature: 20.000000005062
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.68
+Temperature: 20.00000000481512
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.69
+Temperature: 20.000000004580283
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.7
+Temperature: 20.000000004356902
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.71
+Temperature: 20.00000000414441
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.72
+Temperature: 20.000000003942286
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.73
+Temperature: 20.00000000375002
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.74
+Temperature: 20.00000000356713
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.75
+Temperature: 20.000000003393158
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.76
+Temperature: 20.000000003227672
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.7700000000000005
+Temperature: 20.000000003070255
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.78
+Temperature: 20.00000000292052
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.79
+Temperature: 20.000000002778084
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.8
+Temperature: 20.000000002642594
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.8100000000000005
+Temperature: 20.000000002513712
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.82
+Temperature: 20.00000000239112
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.83
+Temperature: 20.0000000022745
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.84
+Temperature: 20.000000002163574
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.8500000000000005
+Temperature: 20.000000002058055
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.86
+Temperature: 20.00000000195768
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.87
+Temperature: 20.000000001862205
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.88
+Temperature: 20.000000001771383
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.89
+Temperature: 20.00000000168499
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.9
+Temperature: 20.000000001602814
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.91
+Temperature: 20.000000001524644
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.92
+Temperature: 20.000000001450285
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.93
+Temperature: 20.000000001379554
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.94
+Temperature: 20.000000001312273
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.95
+Temperature: 20.000000001248274
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.96
+Temperature: 20.000000001187395
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.97
+Temperature: 20.000000001129486
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.98
+Temperature: 20.000000001074397
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 4.99
+Temperature: 20.000000001022
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5
+Temperature: 20.000000000972157
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.01
+Temperature: 20.000000000924743
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.0200000000000005
+Temperature: 20.000000000879645
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.03
+Temperature: 20.000000000836742
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.04
+Temperature: 20.000000000795936
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.05
+Temperature: 20.000000000757115
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.0600000000000005
+Temperature: 20.000000000720192
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.07
+Temperature: 20.000000000685066
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.08
+Temperature: 20.000000000651657
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.09
+Temperature: 20.000000000619874
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.1000000000000005
+Temperature: 20.000000000589644
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.11
+Temperature: 20.000000000560885
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.12
+Temperature: 20.000000000533532
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.13
+Temperature: 20.00000000050751
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.14
+Temperature: 20.000000000482757
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.15
+Temperature: 20.000000000459213
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.16
+Temperature: 20.000000000436817
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.17
+Temperature: 20.000000000415515
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.18
+Temperature: 20.00000000039525
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.19
+Temperature: 20.000000000375973
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.2
+Temperature: 20.000000000357637
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.21
+Temperature: 20.000000000340194
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.22
+Temperature: 20.000000000323602
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.23
+Temperature: 20.00000000030782
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.24
+Temperature: 20.000000000292808
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.25
+Temperature: 20.000000000278526
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.26
+Temperature: 20.000000000264944
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.2700000000000005
+Temperature: 20.000000000252022
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.28
+Temperature: 20.00000000023973
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.29
+Temperature: 20.000000000228038
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.3
+Temperature: 20.000000000216918
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.3100000000000005
+Temperature: 20.000000000206338
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.32
+Temperature: 20.000000000196273
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.33
+Temperature: 20.000000000186702
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.34
+Temperature: 20.000000000177597
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.3500000000000005
+Temperature: 20.000000000168935
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.36
+Temperature: 20.000000000160696
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.37
+Temperature: 20.00000000015286
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.38
+Temperature: 20.000000000145405
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.39
+Temperature: 20.000000000138314
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.4
+Temperature: 20.000000000131568
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.41
+Temperature: 20.00000000012515
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.42
+Temperature: 20.000000000119048
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.43
+Temperature: 20.00000000011324
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.44
+Temperature: 20.00000000010772
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.45
+Temperature: 20.000000000102464
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.46
+Temperature: 20.00000000009747
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.47
+Temperature: 20.000000000092715
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.48
+Temperature: 20.000000000088193
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.49
+Temperature: 20.00000000008389
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.5
+Temperature: 20.0000000000798
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.51
+Temperature: 20.000000000075907
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.5200000000000005
+Temperature: 20.000000000072205
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.53
+Temperature: 20.000000000068685
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.54
+Temperature: 20.000000000065334
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.55
+Temperature: 20.000000000062148
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.5600000000000005
+Temperature: 20.000000000059117
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.57
+Temperature: 20.000000000056232
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.58
+Temperature: 20.00000000005349
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.59
+Temperature: 20.000000000050882
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.6000000000000005
+Temperature: 20.000000000048402
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.61
+Temperature: 20.00000000004604
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.62
+Temperature: 20.000000000043794
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.63
+Temperature: 20.00000000004166
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.64
+Temperature: 20.000000000039627
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.65
+Temperature: 20.000000000037694
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.66
+Temperature: 20.000000000035858
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.67
+Temperature: 20.000000000034106
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.68
+Temperature: 20.000000000032443
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.69
+Temperature: 20.000000000030862
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.7
+Temperature: 20.000000000029356
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.71
+Temperature: 20.000000000027924
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.72
+Temperature: 20.000000000026564
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.73
+Temperature: 20.000000000025267
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.74
+Temperature: 20.000000000024034
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.75
+Temperature: 20.00000000002286
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.76
+Temperature: 20.000000000021746
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.7700000000000005
+Temperature: 20.000000000020687
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.78
+Temperature: 20.00000000001968
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.79
+Temperature: 20.00000000001872
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.8
+Temperature: 20.000000000017806
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.8100000000000005
+Temperature: 20.000000000016936
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.82
+Temperature: 20.00000000001611
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.83
+Temperature: 20.000000000015326
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.84
+Temperature: 20.000000000014577
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.8500000000000005
+Temperature: 20.000000000013866
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.86
+Temperature: 20.00000000001319
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.87
+Temperature: 20.000000000012548
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.88
+Temperature: 20.000000000011937
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.89
+Temperature: 20.000000000011354
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.9
+Temperature: 20.0000000000108
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.91
+Temperature: 20.000000000010274
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.92
+Temperature: 20.000000000009774
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.93
+Temperature: 20.000000000009294
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.94
+Temperature: 20.000000000008843
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.95
+Temperature: 20.00000000000841
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.96
+Temperature: 20.000000000008
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.97
+Temperature: 20.00000000000761
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.98
+Temperature: 20.00000000000724
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 5.99
+Temperature: 20.000000000006885
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6
+Temperature: 20.00000000000655
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.01
+Temperature: 20.00000000000623
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.0200000000000005
+Temperature: 20.000000000005926
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.03
+Temperature: 20.000000000005638
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.04
+Temperature: 20.000000000005365
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.05
+Temperature: 20.0000000000051
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.0600000000000005
+Temperature: 20.000000000004853
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.07
+Temperature: 20.000000000004615
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.08
+Temperature: 20.00000000000439
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.09
+Temperature: 20.000000000004178
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.1000000000000005
+Temperature: 20.000000000003972
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.11
+Temperature: 20.00000000000378
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.12
+Temperature: 20.000000000003595
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.13
+Temperature: 20.00000000000342
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.140000000000001
+Temperature: 20.000000000003254
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.15
+Temperature: 20.000000000003094
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.16
+Temperature: 20.00000000000294
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.17
+Temperature: 20.0000000000028
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.18
+Temperature: 20.000000000002665
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.19
+Temperature: 20.000000000002533
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.2
+Temperature: 20.00000000000241
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.21
+Temperature: 20.00000000000229
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.22
+Temperature: 20.00000000000218
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.23
+Temperature: 20.000000000002075
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.24
+Temperature: 20.00000000000197
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.25
+Temperature: 20.000000000001876
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.26
+Temperature: 20.000000000001783
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.2700000000000005
+Temperature: 20.000000000001698
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.28
+Temperature: 20.000000000001616
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.29
+Temperature: 20.000000000001535
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.3
+Temperature: 20.00000000000146
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.3100000000000005
+Temperature: 20.00000000000139
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.32
+Temperature: 20.00000000000132
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.33
+Temperature: 20.000000000001258
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.34
+Temperature: 20.000000000001197
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.3500000000000005
+Temperature: 20.000000000001137
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.36
+Temperature: 20.000000000001084
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.37
+Temperature: 20.00000000000103
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.38
+Temperature: 20.00000000000098
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.390000000000001
+Temperature: 20.00000000000093
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.4
+Temperature: 20.000000000000888
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.41
+Temperature: 20.000000000000842
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.42
+Temperature: 20.000000000000803
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.43
+Temperature: 20.000000000000764
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.44
+Temperature: 20.000000000000725
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.45
+Temperature: 20.00000000000069
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.46
+Temperature: 20.000000000000657
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.47
+Temperature: 20.000000000000625
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.48
+Temperature: 20.000000000000593
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.49
+Temperature: 20.000000000000565
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.5
+Temperature: 20.000000000000536
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.51
+Temperature: 20.00000000000051
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.5200000000000005
+Temperature: 20.000000000000487
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.53
+Temperature: 20.000000000000462
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.54
+Temperature: 20.00000000000044
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.55
+Temperature: 20.00000000000042
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.5600000000000005
+Temperature: 20.000000000000398
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.57
+Temperature: 20.00000000000038
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.58
+Temperature: 20.00000000000036
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.59
+Temperature: 20.000000000000345
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.6000000000000005
+Temperature: 20.000000000000327
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.61
+Temperature: 20.00000000000031
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.62
+Temperature: 20.000000000000295
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.63
+Temperature: 20.00000000000028
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.640000000000001
+Temperature: 20.000000000000266
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.65
+Temperature: 20.000000000000252
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.66
+Temperature: 20.00000000000024
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.67
+Temperature: 20.00000000000023
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.68
+Temperature: 20.00000000000022
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.69
+Temperature: 20.00000000000021
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.7
+Temperature: 20.0000000000002
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.71
+Temperature: 20.00000000000019
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.72
+Temperature: 20.000000000000178
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.73
+Temperature: 20.00000000000017
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.74
+Temperature: 20.000000000000163
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.75
+Temperature: 20.000000000000153
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.76
+Temperature: 20.000000000000146
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.7700000000000005
+Temperature: 20.00000000000014
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.78
+Temperature: 20.00000000000013
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.79
+Temperature: 20.000000000000128
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.8
+Temperature: 20.00000000000012
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.8100000000000005
+Temperature: 20.000000000000114
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.82
+Temperature: 20.00000000000011
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.83
+Temperature: 20.000000000000103
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.84
+Temperature: 20.0000000000001
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.8500000000000005
+Temperature: 20.000000000000092
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.86
+Temperature: 20.00000000000009
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.87
+Temperature: 20.000000000000085
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.88
+Temperature: 20.00000000000008
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.890000000000001
+Temperature: 20.000000000000078
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.9
+Temperature: 20.00000000000007
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.91
+Temperature: 20.000000000000068
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.92
+Temperature: 20.000000000000068
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.93
+Temperature: 20.000000000000064
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.94
+Temperature: 20.00000000000006
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.95
+Temperature: 20.000000000000057
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.96
+Temperature: 20.000000000000053
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.97
+Temperature: 20.00000000000005
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.98
+Temperature: 20.00000000000005
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 6.99
+Temperature: 20.000000000000046
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7
+Temperature: 20.000000000000043
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.01
+Temperature: 20.000000000000043
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.0200000000000005
+Temperature: 20.00000000000004
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.03
+Temperature: 20.00000000000004
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.04
+Temperature: 20.000000000000036
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.05
+Temperature: 20.000000000000036
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.0600000000000005
+Temperature: 20.000000000000032
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.07
+Temperature: 20.000000000000032
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.08
+Temperature: 20.00000000000003
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.09
+Temperature: 20.00000000000003
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.1000000000000005
+Temperature: 20.00000000000003
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.11
+Temperature: 20.000000000000025
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.12
+Temperature: 20.000000000000025
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.13
+Temperature: 20.00000000000002
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.140000000000001
+Temperature: 20.00000000000002
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.15
+Temperature: 20.00000000000002
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.16
+Temperature: 20.00000000000002
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.17
+Temperature: 20.000000000000018
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.18
+Temperature: 20.000000000000018
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.19
+Temperature: 20.000000000000018
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.2
+Temperature: 20.000000000000018
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.21
+Temperature: 20.000000000000014
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.22
+Temperature: 20.000000000000014
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.23
+Temperature: 20.000000000000014
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.24
+Temperature: 20.000000000000014
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.25
+Temperature: 20.000000000000014
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.26
+Temperature: 20.00000000000001
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.2700000000000005
+Temperature: 20.00000000000001
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.28
+Temperature: 20.00000000000001
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.29
+Temperature: 20.00000000000001
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.3
+Temperature: 20.00000000000001
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.3100000000000005
+Temperature: 20.00000000000001
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.32
+Temperature: 20.00000000000001
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.33
+Temperature: 20.000000000000007
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.34
+Temperature: 20.000000000000007
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.3500000000000005
+Temperature: 20.000000000000007
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.36
+Temperature: 20.000000000000007
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.37
+Temperature: 20.000000000000007
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.38
+Temperature: 20.000000000000007
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.390000000000001
+Temperature: 20.000000000000007
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.4
+Temperature: 20.000000000000007
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.41
+Temperature: 20.000000000000007
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.42
+Temperature: 20.000000000000007
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.43
+Temperature: 20.000000000000004
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.44
+Temperature: 20.000000000000004
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.45
+Temperature: 20.000000000000004
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.46
+Temperature: 20.000000000000004
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.47
+Temperature: 20.000000000000004
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.48
+Temperature: 20.000000000000004
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.49
+Temperature: 20.000000000000004
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.5
+Temperature: 20.000000000000004
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.51
+Temperature: 20.000000000000004
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.5200000000000005
+Temperature: 20.000000000000004
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.53
+Temperature: 20.000000000000004
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.54
+Temperature: 20.000000000000004
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.55
+Temperature: 20.000000000000004
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.5600000000000005
+Temperature: 20.000000000000004
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.57
+Temperature: 20.000000000000004
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.58
+Temperature: 20.000000000000004
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.59
+Temperature: 20.000000000000004
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.6000000000000005
+Temperature: 20.000000000000004
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.61
+Temperature: 20.000000000000004
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.62
+Temperature: 20.000000000000004
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.63
+Temperature: 20.000000000000004
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.640000000000001
+Temperature: 20.000000000000004
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.65
+Temperature: 20
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.66
+Temperature: 20
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.67
+Temperature: 20
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.68
+Temperature: 20
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.69
+Temperature: 20
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.7
+Temperature: 20
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.71
+Temperature: 20
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.72
+Temperature: 20
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.73
+Temperature: 20
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.74
+Temperature: 20
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.75
+Temperature: 20
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.76
+Temperature: 20
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.7700000000000005
+Temperature: 20
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.78
+Temperature: 20
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.79
+Temperature: 20
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.8
+Temperature: 20
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.8100000000000005
+Temperature: 20
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.82
+Temperature: 20
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.83
+Temperature: 20
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.84
+Temperature: 20
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.8500000000000005
+Temperature: 20
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.86
+Temperature: 20
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.87
+Temperature: 20
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.88
+Temperature: 20
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.890000000000001
+Temperature: 20
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.9
+Temperature: 20
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.91
+Temperature: 20
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.92
+Temperature: 20
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.930000000000001
+Temperature: 20
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.94
+Temperature: 20
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.95
+Temperature: 20
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.96
+Temperature: 20
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.97
+Temperature: 20
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.98
+Temperature: 20
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 7.99
+Temperature: 20
+
+Cooling Law Analytical Model
+Environment Temperature: 20
+Initial Temperature: 90
+k: 8
+Temperature: 20
+
