@@ -33,21 +33,13 @@ use std::fmt;
 ///
 /// Intervalo aproximado:
 ///
-/// ```text
 /// ±1.7976931348623157 × 10^308
-/// ```
+///
 ///
 /// Precisão:
 ///
-/// ```text
 /// ~15–17 dígitos significativos
-/// ```
 ///
-/// Justificativa:
-///
-/// - cálculos científicos geralmente utilizam `f64`
-/// - compatível com operações matemáticas da biblioteca padrão
-/// - evita perda de precisão em cálculos iterativos
 ///
 /// ### `Option<f64>`
 ///
@@ -55,7 +47,7 @@ use std::fmt;
 /// criação do modelo.
 ///
 /// O uso de `Option` permite representar explicitamente essa ausência
-/// de valor, evitando o uso de valores sentinela como `0` ou `NaN`.
+/// de valor.
 ///
 /// Isso torna o estado do modelo **mais seguro e explícito em tempo de
 /// compilação**.
@@ -120,6 +112,7 @@ impl CoolingParams {
 }
 
 impl fmt::Display for CoolingParams {
+    //Implementação do print de display para a struct
     fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
         writeln!(f, "Cooling Law Parameters")?;
         writeln!(f, "Environment Temperature: {}", self.env_temperature)?;
