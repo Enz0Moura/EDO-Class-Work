@@ -7,7 +7,7 @@ use std::fmt;
 ///
 /// A temperatura do objeto é dada por:
 ///
-/// T(t) = T_{amb} + (T_0 - T_{amb}) e^{-kt}
+/// T(t) = T_{amb} + (T_0 - T_{amb}) * e^{-kt}
 ///
 /// Onde:
 ///
@@ -40,10 +40,8 @@ use std::fmt;
 /// - `f64` é utilizado para representar temperaturas e constantes.
 ///
 /// Intervalo aproximado:
-///
-/// ```text
 /// ±1.7976931348623157 × 10^308
-/// ```
+/// 
 ///
 /// Precisão:
 ///
@@ -62,7 +60,7 @@ use std::fmt;
 /// O campo `temperature` utiliza `Option<f64>` porque:
 ///
 /// - a temperatura só existe **após a avaliação da função**
-/// - evita o uso de valores sentinela como `0` ou `NaN`
+/// - Funciona como um valor sentinela.
 /// - torna o estado do modelo explicitamente seguro.
 ///
 pub struct CoolingLaw {
@@ -122,6 +120,7 @@ impl CoolingLaw {
 }
 
 impl fmt::Display for CoolingLaw {
+    // Implementação de print para Struct do tipo Cooling Law
     fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
         writeln!(f, "Cooling Law Analytical Model")?;
         writeln!(f, "Environment Temperature: {}", self.params.env_temperature)?;
