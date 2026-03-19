@@ -49,7 +49,7 @@ impl Exercises {
 
     pub fn test_euler_newton() {
 
-        let mut temp = 90.0;
+        let temp = 90.0;
 
         let mut params = CoolingParams {
             env_temperature: 20.0,
@@ -61,16 +61,12 @@ impl Exercises {
 
         let equation = CoolingDifferential::new(params);
 
-        let solver = euler::Euler::new(equation, 0.1);
+        let solver = euler::Euler::new(&equation, 0.1);
 
-        let mut t = 0.0;
+        let env_temp = equation.get_params().env_temperature;
 
-        for _ in 0..800 {
-
-            temp = solver.step(t, temp);
-            t += 0.1;
-
-            println!("t={:.2} T={:.2}", t, temp);
+        for state in solver.iterate(0.0, (&equation).get_params().initial_temperature).take_while(|state| (state.y - env_temp).abs() > 0.0001) {
+            println!("t={:.10} T={:.10}", state.t, state.y);
         }
     }
 
@@ -78,9 +74,8 @@ impl Exercises {
 
         const STEP: f64 = 0.1;
         const ITERATIONS: usize = 100;
-
-        let mut temp_euler = 90.0;
-        let mut t = 0.0;
+        let t = 0.0;
+        let t0 = t;
 
         let mut params = CoolingParams {
             env_temperature: 20.0,
@@ -91,7 +86,7 @@ impl Exercises {
         params.set_k(0.1);
 
         let differential = CoolingDifferential::new(params.clone());
-        let solver = euler::Euler::new(differential, STEP);
+        let solver = euler::Euler::new(&differential, STEP);
 
         let mut analytical_model = CoolingLaw::new(params);
 
@@ -100,26 +95,23 @@ impl Exercises {
             "t", "Analytical", "Euler", "Error"
         );
 
-        for _ in 0..ITERATIONS {
+        for state_euler in solver.iterate(t0, differential.get_params().initial_temperature).take(ITERATIONS) {
 
             let analytical = analytical_model
-                .temperature_at(t)
+                .temperature_at(state_euler.t)
                 .unwrap();
 
-            let euler_temp = temp_euler;
+            let euler_temp = state_euler.y;
 
             let error = (analytical - euler_temp).abs();
 
             println!(
                 "{:<8.2} {:<15.6} {:<15.6} {:<15.6}",
-                t,
+                state_euler.t,
                 analytical,
                 euler_temp,
                 error
             );
-
-            temp_euler = solver.step(t, temp_euler);
-            t += STEP;
         }
 }
 }
