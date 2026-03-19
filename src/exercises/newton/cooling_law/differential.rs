@@ -1,4 +1,5 @@
 use crate::solvers::euler;
+use crate::solvers::differetials;
 use crate::exercises::newton::cooling_law::parameters::CoolingParams;
 use std::fmt;
 
@@ -9,7 +10,7 @@ use std::fmt;
 ///
 /// A equação diferencial do modelo é:
 ///
-/// \frac{dT}{dt} = -k(T - T_{amb})
+/// dT/dt = -k(T - T_{amb})
 ///
 /// Onde:
 ///
@@ -41,6 +42,7 @@ use std::fmt;
 /// A implementação do trait `DifferentialEquation` permite que o modelo
 /// seja passado diretamente para um solver.
 ///
+#[derive(Clone)]
 pub struct CoolingDifferential {
     /// Parâmetros físicos do modelo
     ///
@@ -62,9 +64,13 @@ impl CoolingDifferential {
     pub fn new(params: CoolingParams) -> Self {
         Self { params }
     }
+
+    pub fn get_params(&self) -> &CoolingParams {
+            &self.params
+    }
 }
 
-impl euler::DifferentialEquation for CoolingDifferential {
+impl differetials::DifferentialEquation for CoolingDifferential {
     /// Calcula a derivada da temperatura em relação ao tempo.
     ///
     /// Este método implementa diretamente a equação diferencial do modelo:
@@ -87,6 +93,7 @@ impl euler::DifferentialEquation for CoolingDifferential {
 }
 
 impl fmt::Display for CoolingDifferential {
+    // Implementação do print da struct de CoolingDifferential
     fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
         writeln!(f, "Cooling Law Differential Model")?;
         writeln!(f, "Environment Temperature: {}", self.params.env_temperature)?;
