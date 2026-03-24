@@ -15,7 +15,10 @@ fn main() {
         let command = Command::from_input(&input);
 
         match command {
-            Command::Exit => break,
+            Command::Exit => {
+                println!("Exiting...");
+                break;
+            },
             _ => {
                 command.execute();
                 CLI::pause();
