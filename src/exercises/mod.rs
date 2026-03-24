@@ -6,6 +6,8 @@ use super::solvers::least_squares::builder::LogisticLeastSquaresBuilder;
 use super::solvers::least_squares::solver::LeastSquaresSolver;
 use super::exercises::logistic_model::learned::LearnedModel;
 
+use super::utils::experiment_path::ExperimentPath;
+
 use newton::cooling_law::{
     analytical::CoolingLaw,
     differential::CoolingDifferential,
@@ -27,7 +29,7 @@ use plotters::chart::ChartBuilder;
 use plotters::drawing::IntoDrawingArea;
 use plotters::element::{Circle, PathElement};
 use plotters::series::LineSeries;
-use plotters::style::{BLUE, RED, WHITE};
+use plotters::style::{BLUE, RED, WHITE,  BLACK, Palette, Palette99};
 use plotters::style::Color;
 
 use crate::exercises::logistic_model::differential::LogisticDifferential;
@@ -38,57 +40,127 @@ pub struct Exercises;
 impl Exercises {
 
     pub fn test_newton() -> std::io::Result<()> {
+        let exp = ExperimentPath::new("problem1", "newton_analytical");
+        let filepath = exp.file("analytical_multi_k.png");
 
-        const TIME: f64 = 5.0;
-        const STEP: f64 = 0.01;
+        let t_min = 0.0;
+        let t_max = 10.0;
+        let env_temp = 20.0;
+        let n = 100;
 
-        let mut file = File::create("iterations.txt")?;
-        let mut params = CoolingParams {
-                env_temperature: 20.0,
+        let linspace = Linspace::new(t_min, t_max, n);
+        let t_values = linspace.generate();
+
+        let k_values = vec![0.05, 0.1, 0.2, 0.5];
+
+        let root = BitMapBackend::new(&filepath, (800, 600)).into_drawing_area();
+        root.fill(&WHITE).unwrap();
+
+        let mut chart = ChartBuilder::on(&root)
+            .caption("Newton Cooling - Different k", ("sans-serif", 30))
+            .margin(20)
+            .x_label_area_size(40)
+            .y_label_area_size(40)
+            .build_cartesian_2d(t_min..t_max, 15.0..100.0)
+            .unwrap();
+
+        chart.configure_mesh().draw().unwrap();
+
+        for (i, &k) in k_values.iter().enumerate() {
+            let mut params = CoolingParams {
+                env_temperature: env_temp,
                 initial_temperature: 90.0,
                 k: None,
             };
 
-        for i in 0..=800 {
+        params.set_k(k);
 
-            let k = i as f64 * STEP;
+        let mut model = CoolingLaw::new(params.clone());
 
-            params.set_k(k);
+        let points: Vec<(f64, f64)> = t_values
+            .iter()
+            .map(|&t| (t, model.temperature_at(t).unwrap()))
+            .collect();
 
-            let model = CoolingLaw::new(params.clone())
-                .with_temperature_at(TIME);
+        let color = Palette99::pick(i).mix(0.9);
 
-            let output = format!("{}", model);
-
-            println!("{}", output);
-
-            writeln!(file, "{}", output)?;
+        chart
+            .draw_series(LineSeries::new(points, &color))
+            .unwrap()
+            .label(format!("k = {:.2}", k))
+            .legend(move |(x, y)| {
+                PathElement::new(vec![(x, y), (x + 20, y)], &color)
+            });
         }
+
+        chart
+            .draw_series(LineSeries::new(
+                vec![(t_min, env_temp), (t_max, env_temp)],
+                &BLACK,
+            ))
+            .unwrap()
+            .label("T_amb")
+            .legend(|(x, y)| {
+                PathElement::new(vec![(x, y), (x + 20, y)], &BLACK)
+            });
+
+        chart
+            .configure_series_labels()
+            .border_style(&BLACK)
+            .draw()
+            .unwrap();
+
+        println!("Saved plot at {}", filepath);
 
         Ok(())
     }
 
     pub fn test_euler_newton() {
+        let exp = ExperimentPath::new("problem1", "euler_time");
+        let filepath = exp.file("euler_time.png");
 
-        let temp = 90.0;
+        let t_min = 0.0;
+        let t_max = 10.0;
+        let k = 0.1;
+
+        let root = BitMapBackend::new(&filepath, (800, 600)).into_drawing_area();
+        root.fill(&WHITE).unwrap();
+
+        let mut chart = ChartBuilder::on(&root)
+            .caption("Euler - Time Evolution", ("sans-serif", 30))
+            .margin(20)
+            .x_label_area_size(40)
+            .y_label_area_size(40)
+            .build_cartesian_2d(t_min..t_max, 15.0..100.0)
+            .unwrap();
+
+        chart.configure_mesh().draw().unwrap();
 
         let mut params = CoolingParams {
             env_temperature: 20.0,
-            initial_temperature: temp,
+            initial_temperature: 90.0,
             k: None,
         };
 
-        params.set_k(0.1);
+        params.set_k(k);
 
         let equation = CoolingDifferential::new(params);
-
         let solver = euler::Euler::new(&equation, 0.1);
 
-        let env_temp = equation.get_params().env_temperature;
+        let points: Vec<(f64, f64)> = solver
+            .iterate(0.0, 90.0)
+            .take_while(|state| state.t <= t_max)
+            .map(|s| (s.t, s.y))
+            .collect();
 
-        for state in solver.iterate(0.0, (&equation).get_params().initial_temperature).take_while(|state| (state.y - env_temp).abs() > 0.0001) {
-            println!("t={:.10} T={:.10}", state.t, state.y);
-        }
+        chart.draw_series(LineSeries::new(points, &RED)).unwrap();
+
+        chart.draw_series(LineSeries::new(
+            vec![(t_min, 20.0), (t_max, 20.0)],
+            &BLACK,
+        )).unwrap();
+
+        println!("Saved plot at {}", filepath);
     }
 
     pub fn test_euler_logistic_model(){
