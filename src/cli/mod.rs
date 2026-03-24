@@ -107,6 +107,7 @@ impl CLI {
             println!("1 - Generate Data");
             println!("2 - Euler");
             println!("3 - Learned Model");
+            println!("4 - Learned Model No Noise");
             println!("0 - Back");
 
             let input = Self::prompt();
@@ -123,6 +124,10 @@ impl CLI {
                 }
                 LogisticCommand::Learned => {
                     Exercises::test_learned_model();
+                    Self::success_and_wait();
+                }
+                LogisticCommand::LearnedNoNoise => {
+                    Exercises::test_learned_model_no_noise();
                     Self::success_and_wait();
                 }
                 LogisticCommand::Back => break,

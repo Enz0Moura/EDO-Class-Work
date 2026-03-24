@@ -20,6 +20,7 @@ pub enum LogisticCommand {
     Data,
     Euler,
     Learned,
+    LearnedNoNoise,
     Back,
     Invalid,
 }
@@ -54,6 +55,7 @@ impl LogisticCommand {
             "1" => LogisticCommand::Data,
             "2" => LogisticCommand::Euler,
             "3" => LogisticCommand::Learned,
+            "4" => LogisticCommand::LearnedNoNoise,
             "0" => LogisticCommand::Back,
             _ => LogisticCommand::Invalid,
         }

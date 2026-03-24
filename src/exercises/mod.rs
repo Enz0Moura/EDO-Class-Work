@@ -424,4 +424,83 @@ impl Exercises {
             &RED,
         )).unwrap();
     }
+
+    pub fn test_learned_model_no_noise() {
+        let exp = ExperimentPath::new("problem3", "learned_model");
+        let filepath = exp.file("learned_model_no_noise.png");
+
+        let n = 50;
+        let t_min = 0.0;
+        let t_max = 10.0;
+        let h = 0.2;
+        let y0 = 0.1;
+        let linspace = Linspace::new(t_min, t_max, n);
+        let t_values: Vec<f64> = linspace.generate();
+        
+        let params = LogisticParams { y0: y0 };
+        let model = LogisticAnalytical::new(params);
+
+        let generator = DataGenerator::new(model);
+        let data = generator.generate(&t_values, 0.0); 
+
+
+        let  lq = LogisticLeastSquaresBuilder::build(&data, h);
+       
+        let coeffs = LeastSquaresSolver::solve(&lq.A, &lq.r);
+
+        let a0 = coeffs[0];
+        let a1 = coeffs[1];
+        let a2 = coeffs[2];
+
+        println!("a0={}, a1={}, a2={}", a0, a1, a2);
+
+        let learned = LearnedModel { a0, a1, a2 };
+
+        let solver = euler::Euler::new(&learned, h);
+
+        let points: Vec<(f64, f64)> = solver
+            .iterate(0.0, y0)
+            .take_while(|state| (10.0 - state.t).abs() >= 0.02)
+            .map(|state| (state.t, state.y))
+            .collect();
+
+        let root = BitMapBackend::new(&filepath, (800, 600)).into_drawing_area();
+            root.fill(&WHITE).unwrap();
+        
+        let y_min = points
+            .iter()
+            .map(|(_, y)| *y)
+            .fold(f64::INFINITY, f64::min);
+
+        let y_max = points
+            .iter()
+            .map(|(_, y)| *y)
+            .fold(f64::NEG_INFINITY, f64::max);
+
+        let padding = 0.1;
+
+        let y_range = (y_min - padding)..(y_max + padding);
+
+
+        let mut chart = ChartBuilder::on(&root)
+            .caption("Euler Logistic", ("sans-serif", 30))
+            .margin(20)
+            .x_label_area_size(40)
+            .y_label_area_size(40)
+            .build_cartesian_2d(0.0..10.0, y_range)
+            .unwrap();
+
+        chart.configure_mesh().draw().unwrap();
+
+        chart.draw_series(
+            points.iter().map(|&(t, y)| Circle::new((t, y), 3, BLUE.filled()))
+        ).unwrap();
+
+        let analytical = LogisticAnalytical::new(LogisticParams::new(y0));
+
+        chart.draw_series(LineSeries::new(
+            points.iter().map(|&(t, _)| (t, analytical.evaluate(t))),
+            &RED,
+        )).unwrap();
+    }
 }
