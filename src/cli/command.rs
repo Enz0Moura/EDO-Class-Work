@@ -1,4 +1,5 @@
 use crate::exercises::Exercises;
+use std::io::{self, Read};
 
 pub enum Command {
     Newton,
@@ -25,22 +26,33 @@ impl Command {
 }
 
 impl Command {
+    fn success_and_wait() {
+        println!("\nExecution completed successfully.");
+        println!("Press ENTER to return to menu...");
+
+        let _ = io::stdin().read(&mut [0u8]).unwrap();
+    }
     pub fn execute(&self) {
         match self {
             Command::Newton => {
                 Exercises::test_newton().unwrap();
+                Self::success_and_wait();
             }
             Command::EulerNewton => {
                 Exercises::test_euler_newton();
+                Self::success_and_wait();
             }
             Command::LogisticData => {
                 Exercises::generate_experimental_data_logistic_model();
+                Self::success_and_wait();
             }
             Command::EulerLogistic => {
                 Exercises::test_euler_logistic_model();
+                Self::success_and_wait();
             }
             Command::Learned => {
                 Exercises::test_learned_model();
+                Self::success_and_wait();
             }
             Command::Exit => {}
             Command::Invalid => {
