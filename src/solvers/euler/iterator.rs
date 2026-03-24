@@ -1,6 +1,6 @@
+use crate::solvers::differetials::DifferentialEquation;
 use crate::solvers::euler::Euler;
 use crate::solvers::euler::state::State;
-use crate::solvers::differetials::DifferentialEquation;
 
 pub struct EulerIterator<E> {
     solver: Euler<E>,
@@ -9,7 +9,7 @@ pub struct EulerIterator<E> {
 
 impl<E> EulerIterator<E> {
     pub fn new(solver: Euler<E>, current: State) -> Self {
-        Self {solver, current}
+        Self { solver, current }
     }
 }
 

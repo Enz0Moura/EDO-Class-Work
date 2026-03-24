@@ -84,7 +84,6 @@ pub struct CoolingParams {
 }
 
 impl CoolingParams {
-
     /// Retorna o valor da constante de resfriamento `k`.
     ///
     /// # Panics
@@ -108,7 +107,6 @@ impl CoolingParams {
     pub fn set_k(&mut self, k: f64) {
         self.k = Some(k);
     }
-
 }
 
 impl fmt::Display for CoolingParams {

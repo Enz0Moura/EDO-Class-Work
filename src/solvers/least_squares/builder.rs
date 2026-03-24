@@ -20,6 +20,6 @@ impl LogisticLeastSquaresBuilder {
             r.push(ri);
         }
 
-        LeastSquaresProblem{A, r}
+        LeastSquaresProblem { A, r }
     }
 }

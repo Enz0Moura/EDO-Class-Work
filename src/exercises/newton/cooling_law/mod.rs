@@ -75,5 +75,5 @@
 ///   de resolução**
 ///
 pub mod analytical;
-pub mod parameters;
 pub mod differential;
+pub mod parameters;

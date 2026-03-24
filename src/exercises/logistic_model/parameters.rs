@@ -1,6 +1,6 @@
 #[derive(Clone)]
 pub struct LogisticParams {
-    pub y0: f64,   
+    pub y0: f64,
 }
 
 impl LogisticParams {

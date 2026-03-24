@@ -10,8 +10,6 @@ impl LogisticDifferential {
     pub fn new(params: LogisticParams) -> Self {
         Self { params }
     }
-
-
 }
 
 impl differetials::DifferentialEquation for LogisticDifferential {

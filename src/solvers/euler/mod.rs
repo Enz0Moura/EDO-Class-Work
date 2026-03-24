@@ -1,8 +1,8 @@
-pub mod state;
 pub mod iterator;
-use crate::solvers::differetials::DifferentialEquation;
+pub mod state;
 use super::euler::iterator::EulerIterator;
 use super::euler::state::State;
+use crate::solvers::differetials::DifferentialEquation;
 
 pub struct Euler<E> {
     equation: E,
@@ -11,7 +11,10 @@ pub struct Euler<E> {
 
 impl<E: DifferentialEquation + Clone> Euler<E> {
     pub fn new(equation: &E, step: f64) -> Self {
-        Self { equation: equation.clone(), step: step }
+        Self {
+            equation: equation.clone(),
+            step: step,
+        }
     }
 }
 
@@ -21,10 +24,6 @@ impl<E: DifferentialEquation> Euler<E> {
     }
 
     pub fn iterate(self, t0: f64, y0: f64) -> EulerIterator<E> {
-        EulerIterator::new(
-            self,
-            State { t: t0, y: y0 },
-        )
+        EulerIterator::new(self, State { t: t0, y: y0 })
     }
 }
-

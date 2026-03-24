@@ -1,7 +1,6 @@
-use rand_distr::{Normal, Distribution};
 use crate::solvers::data::model::Model;
+use rand_distr::{Distribution, Normal};
 pub mod model;
-
 
 pub struct DataGenerator<M: Model> {
     pub model: M,
@@ -26,4 +25,3 @@ impl<M: Model> DataGenerator<M> {
             .collect()
     }
 }
-

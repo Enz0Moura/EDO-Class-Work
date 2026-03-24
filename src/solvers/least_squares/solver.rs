@@ -17,10 +17,7 @@ impl LeastSquaresSolver {
             vec[i] = r[i];
         }
 
-        let result = mat
-            .svd(true, true)
-            .solve(&vec, 1e-8)
-            .unwrap();
+        let result = mat.svd(true, true).solve(&vec, 1e-8).unwrap();
 
         result.iter().cloned().collect()
     }

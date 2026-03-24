@@ -1,21 +1,19 @@
-pub mod newton;
 pub mod logistic_model;
+pub mod newton;
 
+use super::exercises::logistic_model::learned::LearnedModel;
 use super::solvers::data::model::Model;
 use super::solvers::least_squares::builder::LogisticLeastSquaresBuilder;
 use super::solvers::least_squares::solver::LeastSquaresSolver;
-use super::exercises::logistic_model::learned::LearnedModel;
 
 use super::utils::experiment_path::ExperimentPath;
 
 use newton::cooling_law::{
-    analytical::CoolingLaw,
-    differential::CoolingDifferential,
-    parameters::CoolingParams,
+    analytical::CoolingLaw, differential::CoolingDifferential, parameters::CoolingParams,
 };
 
-use logistic_model::{ analytical::LogisticAnalytical, parameters::LogisticParams };
 use super::solvers::data::DataGenerator;
+use logistic_model::{analytical::LogisticAnalytical, parameters::LogisticParams};
 
 use super::solvers::euler;
 
@@ -29,16 +27,14 @@ use plotters::chart::ChartBuilder;
 use plotters::drawing::IntoDrawingArea;
 use plotters::element::{Circle, PathElement};
 use plotters::series::LineSeries;
-use plotters::style::{BLUE, RED, WHITE,  BLACK, Palette, Palette99};
 use plotters::style::Color;
+use plotters::style::{BLACK, BLUE, Palette, Palette99, RED, WHITE};
 
 use crate::exercises::logistic_model::differential::LogisticDifferential;
-
 
 pub struct Exercises;
 
 impl Exercises {
-
     pub fn test_newton() -> std::io::Result<()> {
         let exp = ExperimentPath::new("problem1", "newton_analytical");
         let filepath = exp.file("analytical_multi_k.png");
@@ -73,24 +69,22 @@ impl Exercises {
                 k: None,
             };
 
-        params.set_k(k);
+            params.set_k(k);
 
-        let mut model = CoolingLaw::new(params.clone());
+            let mut model = CoolingLaw::new(params.clone());
 
-        let points: Vec<(f64, f64)> = t_values
-            .iter()
-            .map(|&t| (t, model.temperature_at(t).unwrap()))
-            .collect();
+            let points: Vec<(f64, f64)> = t_values
+                .iter()
+                .map(|&t| (t, model.temperature_at(t).unwrap()))
+                .collect();
 
-        let color = Palette99::pick(i).mix(0.9);
+            let color = Palette99::pick(i).mix(0.9);
 
-        chart
-            .draw_series(LineSeries::new(points, &color))
-            .unwrap()
-            .label(format!("k = {:.2}", k))
-            .legend(move |(x, y)| {
-                PathElement::new(vec![(x, y), (x + 20, y)], &color)
-            });
+            chart
+                .draw_series(LineSeries::new(points, &color))
+                .unwrap()
+                .label(format!("k = {:.2}", k))
+                .legend(move |(x, y)| PathElement::new(vec![(x, y), (x + 20, y)], &color));
         }
 
         chart
@@ -100,9 +94,7 @@ impl Exercises {
             ))
             .unwrap()
             .label("T_amb")
-            .legend(|(x, y)| {
-                PathElement::new(vec![(x, y), (x + 20, y)], &BLACK)
-            });
+            .legend(|(x, y)| PathElement::new(vec![(x, y), (x + 20, y)], &BLACK));
 
         chart
             .configure_series_labels()
@@ -155,10 +147,9 @@ impl Exercises {
 
         chart.draw_series(LineSeries::new(points, &RED)).unwrap();
 
-        chart.draw_series(LineSeries::new(
-            vec![(t_min, 20.0), (t_max, 20.0)],
-            &BLACK,
-        )).unwrap();
+        chart
+            .draw_series(LineSeries::new(vec![(t_min, 20.0), (t_max, 20.0)], &BLACK))
+            .unwrap();
 
         println!("Saved plot at {}", filepath);
     }
@@ -229,9 +220,7 @@ impl Exercises {
             ))
             .unwrap()
             .label("Analytical")
-            .legend(|(x, y)| {
-                PathElement::new(vec![(x, y), (x + 20, y)], &RED)
-            });
+            .legend(|(x, y)| PathElement::new(vec![(x, y), (x + 20, y)], &RED));
 
         let env_temp = differential.get_params().env_temperature;
 
@@ -252,8 +241,7 @@ impl Exercises {
         println!("Saved plot at {}", filepath);
     }
 
-
-    pub fn test_euler_logistic_model(){
+    pub fn test_euler_logistic_model() {
         let exp = ExperimentPath::new("problem3", "euler_logistic");
         let filepath = exp.file("euler.png");
 
@@ -262,7 +250,7 @@ impl Exercises {
         let mut params = LogisticParams::new(y0);
 
         let equation = LogisticDifferential::new(params);
-        
+
         let solver = euler::Euler::new(&equation, 0.2);
 
         let points: Vec<(f64, f64)> = solver
@@ -272,7 +260,7 @@ impl Exercises {
             .collect();
 
         let root = BitMapBackend::new(&filepath, (800, 600)).into_drawing_area();
-            root.fill(&WHITE).unwrap();
+        root.fill(&WHITE).unwrap();
 
         let mut chart = ChartBuilder::on(&root)
             .caption("Euler Logistic", ("sans-serif", 30))
@@ -284,23 +272,25 @@ impl Exercises {
 
         chart.configure_mesh().draw().unwrap();
 
-        chart.draw_series(
-            points.iter().map(|&(t, y)| Circle::new((t, y), 3, BLUE.filled()))
-        ).unwrap();
+        chart
+            .draw_series(
+                points
+                    .iter()
+                    .map(|&(t, y)| Circle::new((t, y), 3, BLUE.filled())),
+            )
+            .unwrap();
 
         let analytical = LogisticAnalytical::new(LogisticParams::new(y0));
 
-        chart.draw_series(LineSeries::new(
-            points.iter().map(|&(t, _)| (t, analytical.evaluate(t))),
-            &RED,
-        )).unwrap();
-
-
+        chart
+            .draw_series(LineSeries::new(
+                points.iter().map(|&(t, _)| (t, analytical.evaluate(t))),
+                &RED,
+            ))
+            .unwrap();
     }
 
-    
     pub fn generate_experimental_data_logistic_model() {
-        
         let exp = ExperimentPath::new("problem3", "experimental_data");
         let filepath = exp.file("experimental_data.png");
 
@@ -315,7 +305,7 @@ impl Exercises {
         let model = LogisticAnalytical::new(params);
 
         let generator = DataGenerator::new(model);
-        let data = generator.generate(&t_values, 0.1); 
+        let data = generator.generate(&t_values, 0.1);
 
         let y_clean: Vec<f64> = t_values
             .iter()
@@ -335,15 +325,19 @@ impl Exercises {
 
         chart.configure_mesh().draw().unwrap();
 
-        chart.draw_series(LineSeries::new(
-            t_values.iter().zip(y_clean.iter()).map(|(&t, &y)| (t, y)),
-            &RED,
-        )).unwrap();
+        chart
+            .draw_series(LineSeries::new(
+                t_values.iter().zip(y_clean.iter()).map(|(&t, &y)| (t, y)),
+                &RED,
+            ))
+            .unwrap();
 
-        chart.draw_series(
-            data.iter().map(|&(t, y)| Circle::new((t, y), 3, BLUE.filled()))
-        ).unwrap();
-
+        chart
+            .draw_series(
+                data.iter()
+                    .map(|&(t, y)| Circle::new((t, y), 3, BLUE.filled())),
+            )
+            .unwrap();
     }
 
     pub fn test_learned_model() {
@@ -357,16 +351,15 @@ impl Exercises {
         let y0 = 0.1;
         let linspace = Linspace::new(t_min, t_max, n);
         let t_values: Vec<f64> = linspace.generate();
-        
+
         let params = LogisticParams { y0: y0 };
         let model = LogisticAnalytical::new(params);
 
         let generator = DataGenerator::new(model);
-        let data = generator.generate(&t_values, 0.1); 
+        let data = generator.generate(&t_values, 0.1);
 
+        let lq = LogisticLeastSquaresBuilder::build(&data, h);
 
-        let  lq = LogisticLeastSquaresBuilder::build(&data, h);
-       
         let coeffs = LeastSquaresSolver::solve(&lq.A, &lq.r);
 
         let a0 = coeffs[0];
@@ -386,12 +379,9 @@ impl Exercises {
             .collect();
 
         let root = BitMapBackend::new(&filepath, (800, 600)).into_drawing_area();
-            root.fill(&WHITE).unwrap();
-        
-        let y_min = points
-            .iter()
-            .map(|(_, y)| *y)
-            .fold(f64::INFINITY, f64::min);
+        root.fill(&WHITE).unwrap();
+
+        let y_min = points.iter().map(|(_, y)| *y).fold(f64::INFINITY, f64::min);
 
         let y_max = points
             .iter()
@@ -401,7 +391,6 @@ impl Exercises {
         let padding = 0.1;
 
         let y_range = (y_min - padding)..(y_max + padding);
-
 
         let mut chart = ChartBuilder::on(&root)
             .caption("Min quad Logistic", ("sans-serif", 30))
@@ -413,16 +402,22 @@ impl Exercises {
 
         chart.configure_mesh().draw().unwrap();
 
-        chart.draw_series(
-            points.iter().map(|&(t, y)| Circle::new((t, y), 3, BLUE.filled()))
-        ).unwrap();
+        chart
+            .draw_series(
+                points
+                    .iter()
+                    .map(|&(t, y)| Circle::new((t, y), 3, BLUE.filled())),
+            )
+            .unwrap();
 
         let analytical = LogisticAnalytical::new(LogisticParams::new(y0));
 
-        chart.draw_series(LineSeries::new(
-            points.iter().map(|&(t, _)| (t, analytical.evaluate(t))),
-            &RED,
-        )).unwrap();
+        chart
+            .draw_series(LineSeries::new(
+                points.iter().map(|&(t, _)| (t, analytical.evaluate(t))),
+                &RED,
+            ))
+            .unwrap();
     }
 
     pub fn test_learned_model_no_noise() {
@@ -436,16 +431,15 @@ impl Exercises {
         let y0 = 0.1;
         let linspace = Linspace::new(t_min, t_max, n);
         let t_values: Vec<f64> = linspace.generate();
-        
+
         let params = LogisticParams { y0: y0 };
         let model = LogisticAnalytical::new(params);
 
         let generator = DataGenerator::new(model);
-        let data = generator.generate(&t_values, 0.0); 
+        let data = generator.generate(&t_values, 0.0);
 
+        let lq = LogisticLeastSquaresBuilder::build(&data, h);
 
-        let  lq = LogisticLeastSquaresBuilder::build(&data, h);
-       
         let coeffs = LeastSquaresSolver::solve(&lq.A, &lq.r);
 
         let a0 = coeffs[0];
@@ -465,12 +459,9 @@ impl Exercises {
             .collect();
 
         let root = BitMapBackend::new(&filepath, (800, 600)).into_drawing_area();
-            root.fill(&WHITE).unwrap();
-        
-        let y_min = points
-            .iter()
-            .map(|(_, y)| *y)
-            .fold(f64::INFINITY, f64::min);
+        root.fill(&WHITE).unwrap();
+
+        let y_min = points.iter().map(|(_, y)| *y).fold(f64::INFINITY, f64::min);
 
         let y_max = points
             .iter()
@@ -480,7 +471,6 @@ impl Exercises {
         let padding = 0.1;
 
         let y_range = (y_min - padding)..(y_max + padding);
-
 
         let mut chart = ChartBuilder::on(&root)
             .caption("Min quad Logistic", ("sans-serif", 30))
@@ -492,15 +482,21 @@ impl Exercises {
 
         chart.configure_mesh().draw().unwrap();
 
-        chart.draw_series(
-            points.iter().map(|&(t, y)| Circle::new((t, y), 3, BLUE.filled()))
-        ).unwrap();
+        chart
+            .draw_series(
+                points
+                    .iter()
+                    .map(|&(t, y)| Circle::new((t, y), 3, BLUE.filled())),
+            )
+            .unwrap();
 
         let analytical = LogisticAnalytical::new(LogisticParams::new(y0));
 
-        chart.draw_series(LineSeries::new(
-            points.iter().map(|&(t, _)| (t, analytical.evaluate(t))),
-            &RED,
-        )).unwrap();
+        chart
+            .draw_series(LineSeries::new(
+                points.iter().map(|&(t, _)| (t, analytical.evaluate(t))),
+                &RED,
+            ))
+            .unwrap();
     }
 }

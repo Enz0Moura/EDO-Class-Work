@@ -1,7 +1,7 @@
 pub mod command;
 
 use crate::exercises::Exercises;
-use command::{MainCommand, NewtonCommand, LogisticCommand};
+use command::{LogisticCommand, MainCommand, NewtonCommand};
 
 pub struct CLI;
 
@@ -10,7 +10,6 @@ impl CLI {
         print!("\x1B[2J\x1B[1;1H");
     }
 
-    
     pub fn pause() {
         use std::io;
 

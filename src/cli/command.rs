@@ -25,7 +25,6 @@ pub enum LogisticCommand {
     Invalid,
 }
 
-
 impl MainCommand {
     pub fn from_input(input: &str) -> Self {
         match input {
@@ -61,4 +60,3 @@ impl LogisticCommand {
         }
     }
 }
-

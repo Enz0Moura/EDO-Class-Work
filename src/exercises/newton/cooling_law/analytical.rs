@@ -41,7 +41,7 @@ use std::fmt;
 ///
 /// Intervalo aproximado:
 /// ±1.7976931348623157 × 10^308
-/// 
+///
 ///
 /// Precisão:
 ///
@@ -106,8 +106,7 @@ impl CoolingLaw {
         let k = self.params.k?;
 
         let temp = self.params.env_temperature
-            + (self.params.initial_temperature - self.params.env_temperature)
-                * (-k * time).exp();
+            + (self.params.initial_temperature - self.params.env_temperature) * (-k * time).exp();
 
         self.set_temperature(temp)
     }
@@ -116,15 +115,22 @@ impl CoolingLaw {
         let _ = self.temperature_at(time);
         self
     }
-
 }
 
 impl fmt::Display for CoolingLaw {
     // Implementação de print para Struct do tipo Cooling Law
     fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
         writeln!(f, "Cooling Law Analytical Model")?;
-        writeln!(f, "Environment Temperature: {}", self.params.env_temperature)?;
-        writeln!(f, "Initial Temperature: {}", self.params.initial_temperature)?;
+        writeln!(
+            f,
+            "Environment Temperature: {}",
+            self.params.env_temperature
+        )?;
+        writeln!(
+            f,
+            "Initial Temperature: {}",
+            self.params.initial_temperature
+        )?;
 
         match self.params.k {
             Some(k) => writeln!(f, "k: {}", k)?,

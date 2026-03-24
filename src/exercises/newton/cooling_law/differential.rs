@@ -1,5 +1,5 @@
-use crate::solvers::differetials;
 use crate::exercises::newton::cooling_law::parameters::CoolingParams;
+use crate::solvers::differetials;
 use std::fmt;
 
 /// Representação **diferencial** da Lei de Resfriamento de Newton.
@@ -21,7 +21,7 @@ use std::fmt;
 ///
 /// A Lei de Resfriamento de Newton estabelece que:
 ///
-/// > A taxa de variação da temperatura de um objeto é proporcional 
+/// > A taxa de variação da temperatura de um objeto é proporcional
 /// à diferença entre sua temperatura e a temperatura do ambiente.
 ///
 /// Isso significa que:
@@ -65,7 +65,7 @@ impl CoolingDifferential {
     }
 
     pub fn get_params(&self) -> &CoolingParams {
-            &self.params
+        &self.params
     }
 }
 
@@ -95,8 +95,16 @@ impl fmt::Display for CoolingDifferential {
     // Implementação do print da struct de CoolingDifferential
     fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
         writeln!(f, "Cooling Law Differential Model")?;
-        writeln!(f, "Environment Temperature: {}", self.params.env_temperature)?;
-        writeln!(f, "Initial Temperature: {}", self.params.initial_temperature)?;
+        writeln!(
+            f,
+            "Environment Temperature: {}",
+            self.params.env_temperature
+        )?;
+        writeln!(
+            f,
+            "Initial Temperature: {}",
+            self.params.initial_temperature
+        )?;
 
         match self.params.k {
             Some(k) => writeln!(f, "k: {}", k)?,
