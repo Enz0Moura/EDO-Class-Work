@@ -404,7 +404,7 @@ impl Exercises {
 
 
         let mut chart = ChartBuilder::on(&root)
-            .caption("Euler Logistic", ("sans-serif", 30))
+            .caption("Min quad Logistic", ("sans-serif", 30))
             .margin(20)
             .x_label_area_size(40)
             .y_label_area_size(40)
@@ -483,7 +483,7 @@ impl Exercises {
 
 
         let mut chart = ChartBuilder::on(&root)
-            .caption("Euler Logistic", ("sans-serif", 30))
+            .caption("Min quad Logistic", ("sans-serif", 30))
             .margin(20)
             .x_label_area_size(40)
             .y_label_area_size(40)
