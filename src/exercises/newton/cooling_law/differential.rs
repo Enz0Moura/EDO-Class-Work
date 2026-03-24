@@ -1,4 +1,3 @@
-use crate::solvers::euler;
 use crate::solvers::differetials;
 use crate::exercises::newton::cooling_law::parameters::CoolingParams;
 use std::fmt;
