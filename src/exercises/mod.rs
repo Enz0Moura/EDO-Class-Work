@@ -163,6 +163,96 @@ impl Exercises {
         println!("Saved plot at {}", filepath);
     }
 
+    pub fn compare_analytical_vs_euler() {
+        let exp = ExperimentPath::new("problem1", "compare");
+        let filepath = exp.file("compare.png");
+
+        let map_x_range = 0.0..10.0;
+        let map_y_range = 15.0..100.0;
+
+        const STEP: f64 = 0.1;
+        const ITERATIONS: usize = 100;
+
+        let t0 = 0.0;
+
+        let mut params = CoolingParams {
+            env_temperature: 20.0,
+            initial_temperature: 90.0,
+            k: None,
+        };
+
+        params.set_k(0.1);
+
+        let differential = CoolingDifferential::new(params.clone());
+        let solver = euler::Euler::new(&differential, STEP);
+
+        let mut analytical_model = CoolingLaw::new(params);
+
+        let mut euler_points = Vec::new();
+
+        for state in solver
+            .iterate(t0, differential.get_params().initial_temperature)
+            .take(ITERATIONS)
+        {
+            euler_points.push((state.t, state.y));
+        }
+
+        let root = BitMapBackend::new(&filepath, (900, 600)).into_drawing_area();
+        root.fill(&WHITE).unwrap();
+
+        let mut chart = ChartBuilder::on(&root)
+            .caption("Analytical vs Euler", ("sans-serif", 30))
+            .margin(20)
+            .x_label_area_size(40)
+            .y_label_area_size(50)
+            .build_cartesian_2d(map_x_range, map_y_range)
+            .unwrap();
+
+        chart.configure_mesh().draw().unwrap();
+
+        chart
+            .draw_series(
+                euler_points
+                    .iter()
+                    .map(|&(t, y)| Circle::new((t, y), 3, BLUE.filled())),
+            )
+            .unwrap()
+            .label("Euler")
+            .legend(|(x, y)| Circle::new((x + 10, y), 3, BLUE.filled()));
+
+        chart
+            .draw_series(LineSeries::new(
+                euler_points
+                    .iter()
+                    .map(|&(t, _)| (t, analytical_model.temperature_at(t).unwrap())),
+                &RED,
+            ))
+            .unwrap()
+            .label("Analytical")
+            .legend(|(x, y)| {
+                PathElement::new(vec![(x, y), (x + 20, y)], &RED)
+            });
+
+        let env_temp = differential.get_params().env_temperature;
+
+        chart
+            .draw_series(LineSeries::new(
+                vec![(0.0, env_temp), (10.0, env_temp)],
+                &BLACK,
+            ))
+            .unwrap()
+            .label("T_amb");
+
+        chart
+            .configure_series_labels()
+            .border_style(&BLACK)
+            .draw()
+            .unwrap();
+
+        println!("Saved plot at {}", filepath);
+    }
+
+
     pub fn test_euler_logistic_model(){
 
         let y0 = 0.1;
@@ -206,51 +296,7 @@ impl Exercises {
 
     }
 
-    pub fn compare_analytical_vs_euler() {
-
-        const STEP: f64 = 0.1;
-        const ITERATIONS: usize = 100;
-        let t = 0.0;
-        let t0 = t;
-
-        let mut params = CoolingParams {
-            env_temperature: 20.0,
-            initial_temperature: 90.0,
-            k: None,
-        };
-        
-        params.set_k(0.1);
-
-        let differential = CoolingDifferential::new(params.clone());
-        let solver = euler::Euler::new(&differential, STEP);
-
-        let mut analytical_model = CoolingLaw::new(params);
-
-        println!(
-            "{:<8} {:<15} {:<15} {:<15}",
-            "t", "Analytical", "Euler", "Error"
-        );
-
-        for state_euler in solver.iterate(t0, differential.get_params().initial_temperature).take(ITERATIONS) {
-
-            let analytical = analytical_model
-                .temperature_at(state_euler.t)
-                .unwrap();
-
-            let euler_temp = state_euler.y;
-
-            let error = (analytical - euler_temp).abs();
-
-            println!(
-                "{:<8.2} {:<15.6} {:<15.6} {:<15.6}",
-                state_euler.t,
-                analytical,
-                euler_temp,
-                error
-            );
-        };
-    }
-
+    
     pub fn generate_experimental_data_logistic_model() {
 
         let n = 50;
