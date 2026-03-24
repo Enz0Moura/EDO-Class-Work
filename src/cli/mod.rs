@@ -42,8 +42,8 @@ impl CLI {
             Self::clear();
 
             println!("==== MAIN MENU ====");
-            println!("1 - Problema 1 (Newton)");
-            println!("3 - Problema 3 (Logistic)");
+            println!("1 - Problem 1 (Newton)");
+            println!("3 - Problem 3 (Logistic)");
             println!("0 - Exit");
 
             let input = Self::prompt();
