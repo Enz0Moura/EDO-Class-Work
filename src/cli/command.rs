@@ -1,63 +1,62 @@
 use crate::exercises::Exercises;
 use std::io::{self, Read};
 
-pub enum Command {
-    Newton,
-    EulerNewton,
-    LogisticData,
-    EulerLogistic,
-    Learned,
+pub enum MainCommand {
+    Problem1,
+    Problem3,
     Exit,
     Invalid,
 }
 
-impl Command {
+pub enum NewtonCommand {
+    Analytical,
+    Euler,
+    Compare,
+    Back,
+    Invalid,
+}
+
+pub enum LogisticCommand {
+    Data,
+    Euler,
+    Learned,
+    Back,
+    Invalid,
+}
+
+
+impl MainCommand {
     pub fn from_input(input: &str) -> Self {
         match input {
-            "1" => Command::Newton,
-            "2" => Command::EulerNewton,
-            "3" => Command::LogisticData,
-            "4" => Command::EulerLogistic,
-            "5" => Command::Learned,
-            "0" => Command::Exit,
-            _ => Command::Invalid,
+            "1" => MainCommand::Problem1,
+            "3" => MainCommand::Problem3,
+            "0" => MainCommand::Exit,
+            _ => MainCommand::Invalid,
         }
     }
 }
 
-impl Command {
-    fn success_and_wait() {
-        println!("\nExecution completed successfully.");
-        println!("Press ENTER to return to menu...");
-
-        let _ = io::stdin().read(&mut [0u8]).unwrap();
-    }
-    pub fn execute(&self) {
-        match self {
-            Command::Newton => {
-                Exercises::test_newton().unwrap();
-                Self::success_and_wait();
-            }
-            Command::EulerNewton => {
-                Exercises::test_euler_newton();
-                Self::success_and_wait();
-            }
-            Command::LogisticData => {
-                Exercises::generate_experimental_data_logistic_model();
-                Self::success_and_wait();
-            }
-            Command::EulerLogistic => {
-                Exercises::test_euler_logistic_model();
-                Self::success_and_wait();
-            }
-            Command::Learned => {
-                Exercises::test_learned_model();
-                Self::success_and_wait();
-            }
-            Command::Exit => {}
-            Command::Invalid => {
-                println!("Invalid option");
-            }
+impl NewtonCommand {
+    pub fn from_input(input: &str) -> Self {
+        match input {
+            "1" => NewtonCommand::Analytical,
+            "2" => NewtonCommand::Euler,
+            "3" => NewtonCommand::Compare,
+            "0" => NewtonCommand::Back,
+            _ => NewtonCommand::Invalid,
         }
     }
 }
+
+impl LogisticCommand {
+    pub fn from_input(input: &str) -> Self {
+        match input {
+            "1" => LogisticCommand::Data,
+            "2" => LogisticCommand::Euler,
+            "3" => LogisticCommand::Learned,
+            "0" => LogisticCommand::Back,
+            _ => LogisticCommand::Invalid,
+        }
+    }
+}
+
