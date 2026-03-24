@@ -254,6 +254,8 @@ impl Exercises {
 
 
     pub fn test_euler_logistic_model(){
+        let exp = ExperimentPath::new("problem3", "euler_logistic");
+        let filepath = exp.file("euler.png");
 
         let y0 = 0.1;
 
@@ -269,35 +271,38 @@ impl Exercises {
             .map(|state| (state.t, state.y))
             .collect();
 
-        let root = BitMapBackend::new("euler.png", (800, 600)).into_drawing_area();
+        let root = BitMapBackend::new(&filepath, (800, 600)).into_drawing_area();
             root.fill(&WHITE).unwrap();
 
-    let mut chart = ChartBuilder::on(&root)
-        .caption("Euler Logistic", ("sans-serif", 30))
-        .margin(20)
-        .x_label_area_size(40)
-        .y_label_area_size(40)
-        .build_cartesian_2d(0.0..10.0, 0.0..1.2)
-        .unwrap();
+        let mut chart = ChartBuilder::on(&root)
+            .caption("Euler Logistic", ("sans-serif", 30))
+            .margin(20)
+            .x_label_area_size(40)
+            .y_label_area_size(40)
+            .build_cartesian_2d(0.0..10.0, 0.0..1.2)
+            .unwrap();
 
-    chart.configure_mesh().draw().unwrap();
+        chart.configure_mesh().draw().unwrap();
 
-    chart.draw_series(
-        points.iter().map(|&(t, y)| Circle::new((t, y), 3, BLUE.filled()))
-    ).unwrap();
+        chart.draw_series(
+            points.iter().map(|&(t, y)| Circle::new((t, y), 3, BLUE.filled()))
+        ).unwrap();
 
-    let analytical = LogisticAnalytical::new(LogisticParams::new(y0));
+        let analytical = LogisticAnalytical::new(LogisticParams::new(y0));
 
-    chart.draw_series(LineSeries::new(
-        points.iter().map(|&(t, _)| (t, analytical.evaluate(t))),
-        &RED,
-    )).unwrap();
+        chart.draw_series(LineSeries::new(
+            points.iter().map(|&(t, _)| (t, analytical.evaluate(t))),
+            &RED,
+        )).unwrap();
 
 
     }
 
     
     pub fn generate_experimental_data_logistic_model() {
+        
+        let exp = ExperimentPath::new("problem3", "experimental_data");
+        let filepath = exp.file("experimental_data.png");
 
         let n = 50;
         let t_min = 0.0;
@@ -317,7 +322,7 @@ impl Exercises {
             .map(|&t| 1.0 / (1.0 + 9.0 * (-t).exp()))
             .collect();
 
-        let root = BitMapBackend::new("logistic.png", (800, 600)).into_drawing_area();
+        let root = BitMapBackend::new(&filepath, (800, 600)).into_drawing_area();
         root.fill(&WHITE).unwrap();
 
         let mut chart = ChartBuilder::on(&root)
@@ -342,6 +347,9 @@ impl Exercises {
     }
 
     pub fn test_learned_model() {
+        let exp = ExperimentPath::new("problem3", "learned_model");
+        let filepath = exp.file("learned_model.png");
+
         let n = 50;
         let t_min = 0.0;
         let t_max = 10.0;
@@ -377,15 +385,30 @@ impl Exercises {
             .map(|state| (state.t, state.y))
             .collect();
 
-        let root = BitMapBackend::new("euler.png", (800, 600)).into_drawing_area();
+        let root = BitMapBackend::new(&filepath, (800, 600)).into_drawing_area();
             root.fill(&WHITE).unwrap();
+        
+        let y_min = points
+            .iter()
+            .map(|(_, y)| *y)
+            .fold(f64::INFINITY, f64::min);
+
+        let y_max = points
+            .iter()
+            .map(|(_, y)| *y)
+            .fold(f64::NEG_INFINITY, f64::max);
+
+        let padding = 0.1;
+
+        let y_range = (y_min - padding)..(y_max + padding);
+
 
         let mut chart = ChartBuilder::on(&root)
             .caption("Euler Logistic", ("sans-serif", 30))
             .margin(20)
             .x_label_area_size(40)
             .y_label_area_size(40)
-            .build_cartesian_2d(0.0..10.0, 0.0..1.2)
+            .build_cartesian_2d(0.0..10.0, y_range)
             .unwrap();
 
         chart.configure_mesh().draw().unwrap();
