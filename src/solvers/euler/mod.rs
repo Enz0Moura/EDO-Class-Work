@@ -1,8 +1,8 @@
 pub mod state;
 pub mod iterator;
 use crate::solvers::differetials::DifferentialEquation;
-use crate::euler::iterator::EulerIterator;
-use crate::euler::state::State;
+use super::euler::iterator::EulerIterator;
+use super::euler::state::State;
 
 pub struct Euler<E> {
     equation: E,
